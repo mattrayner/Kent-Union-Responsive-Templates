@@ -35,6 +35,21 @@ h2 {
     width:100rem;
     padding:0;
 }
+.modal {
+    width: 100%;
+    position:absolute;
+    top: 2.6rem;
+    left:0;
+    z-index:101;
+    background-color: white;
+    height: 300px;
+    display:block;
+    border-bottom: 4px solid #00aeef;
+    overflow:hidden;
+}
+.greyBar_active {
+     background: url("http://www.kentunion.co.uk/stylesheet/KentUnionResponsiveDesign/arrow_down_white.png") no-repeat 100% 50% #00aeef !important;
+}
 
 .clearfix:after {
    content: ".";
@@ -60,13 +75,27 @@ html[xmlns] .clearfix {
 
 
 /* Id */
-
+#overlay {
+    height:100%;
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:1 !important;
+    background-color:RGBA(0,0,0,.7);
+    cursor:pointer;
+}
+#modal_OuterContainer {
+    position:relative;   
+}
 #greyBar {
     background-color: #808285;
     height: 2.6rem;
     display: block;
     color: #fff;
     width: 100%;
+    z-index:2 !important;
+    position:relative;
 }
 #greyBar ul {
     font-weight:bold;

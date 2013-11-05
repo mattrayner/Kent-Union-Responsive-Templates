@@ -28,4 +28,22 @@ $(document).ready(function() {
     }, function() {
         $('.bannerControl').fadeOut('fast');
     });
+    $('#overlay').hide();
+    $('.modal').hide();
+    $('#greyBar li a').click(function(e){
+        $('#greyBar li a').removeClass('greyBar_active');
+        $(this).addClass('greyBar_active');
+        $('#overlay').fadeIn('fast',function() {
+           $('.modal').slideDown('fast');
+            e.stopPropagation();
+        });
+        
+    });
+    $('#overlay').click( function() {
+        $('.modal').slideUp('fast', function() {
+            $('#overlay').fadeOut('fast');
+            $('#greyBar li a').removeClass('greyBar_active');
+        });
+    });
+    
 });
