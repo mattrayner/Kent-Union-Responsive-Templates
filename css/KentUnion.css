@@ -234,19 +234,72 @@ html[xmlns] .clearfix {
 #promo-boxes {
     margin-top: 2rem;
     height: 15rem;
-    background-color: #787688;
+    background-color: #eee;
     width: 98%;
 }
 #main-news-box {
     height: 30.2rem;
     margin-top: 2rem;
-    background-color: #ddd;
+    background-color: #eee;
 }
 #footer {
-    width: 100rem;
-    background-color: #ccc;
+    width:100rem;
     height: 3rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 0;
     display: block;
 }
+#footer p {
+    margin:0;
+    padding: 0;
+    display:block;
+    color: #808285;
+}
+#footer p a {
+    text-decoration: none;
+    color: #808285;
+    font-weight: normal;
+    margin: 0;   
+}
+#raptorbutton {
+    width: 13px;
+    height: 18px;
+    background: url('http://www.kentunion.co.uk/stylesheet/KentUnionResponsiveDesign/raptor-icon.jpg') top left no-repeat;
+    float: right;
+    display: block;
+    border: 0;
+    text-indent: -999em;
+    overflow: hidden;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    text-align: left;
+    direction: ltr;
+    line-height: 0;
+}
+#footer ul {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: right;   
+}
+#footer li{
+    display:inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-left: 1px solid #d1d3d4;
+}
+#footer li:first-child {
+    border-left:0;
+    padding-left:0;
+}
+#footer li:last-child {
+    padding-right: 0;   
+}
+#footer li a{
+    text-decoration: none;
+    color: #808285;
+    font-weight: normal;
+    margin: 0;
+}
+
