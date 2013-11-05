@@ -35,6 +35,7 @@ h2 {
     width:100rem;
     padding:0;
 }
+
 .clearfix:after {
    content: ".";
    display: block;
@@ -154,12 +155,44 @@ html[xmlns] .clearfix {
     padding: 0;
 }
 #main-homepage-images {
-    height: 33rem;
     display: block;
     background-color: #efefef;
+    padding:0;
+    position:relative;
+}
+#bannerprev {
+    background: url(http://www.kentunion.co.uk/stylesheet/KentUnionResponsiveDesign/prev_arrow.png) top left;
+    text-indent: -6000px;
+    width:5rem;
+    height:5rem;
+    display:block;
+    position:absolute;
+    top:40%;
+    left:2%;
+    z-index:20;
+}
+#bannernext {
+    background: url(http://www.kentunion.co.uk/stylesheet/KentUnionResponsiveDesign/next_arrow.png) top left;
+    text-indent: -6000px;
+    width:5rem;
+    height:5rem;
+    display:block;
+    position:absolute;
+    top:40%;
+    right:2%;
+    z-index:20;
+}
+#homepage-carousel {
+    width:100%;
+    display:block;
+}
+#homepage-carousel .item img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 #main-homepage-social {
-    height: 33rem;
+    height: 34.8rem;
     display: block;
     background-color: #effeef;
 }
