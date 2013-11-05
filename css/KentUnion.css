@@ -1,0 +1,219 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'museo700';
+    src: url('fonts/m700-webfont.eot');
+    src: url('fonts/m700-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/m700-webfont.woff') format('woff'), url('fonts/m700-webfont.ttf') format('truetype'), url('fonts/m700-webfont.svg#museo700') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+h2 {
+    font-size: 2.3rem;
+    line-height: 3.6rem;
+}
+
+
+/* Classes */
+
+.default-presentation {
+    border-bottom: 9px #00aeef solid;
+}
+.blue-presentation {
+    background-color: #00aeef;
+    color: #fff;
+}
+.floating-column {
+    width: 30.5%;
+    display: inline-block;
+    float:left;
+}
+.contrainProportion {
+    width:100rem;
+    padding:0;
+}
+.clearfix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;
+}
+ 
+.clearfix {
+   display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+   display: block;
+}
+ 
+* html .clearfix {
+   height: 1%;
+   overflow: visible;
+}
+
+
+/* Id */
+
+#greyBar {
+    background-color: #808285;
+    height: 2.6rem;
+    display: block;
+    color: #fff;
+    width: 100%;
+}
+#greyBar ul {
+    font-weight:bold;
+    margin:0;
+    padding:0;
+    font-size: 1.5rem;
+}
+#greyBar ul li {
+    display:inline-block;
+    white-space:nowrap;
+    padding-top:.3rem;
+    border-right: solid 1px #666;
+}
+#greyBar ul li a {
+    background: url("http://www.kentunion.co.uk/stylesheet/KentUnionResponsiveDesign/arrow_down_blue.png") no-repeat 100% 50% #808285;
+    color: white;
+    padding: 5px 36px 5px 15px;
+    text-decoration:none;
+    font-size: 1.2rem;
+}
+#search input {
+    margin:0;
+    padding:0;
+    height: 2rem;
+    width: 80%;
+    margin-left: 2rem;
+}
+#greyBar ul li a:hover {
+    background: url("http://www.kentunion.co.uk/stylesheet/KentUnionResponsiveDesign/arrow_down_white.png") no-repeat 100% 50% #00aeef;
+}
+#mainMenu {
+    background-color: white;
+    width: 100%;
+    display: block;
+    border-bottom: #00aeef 4px solid;
+    height: 8rem;
+}
+#logo {
+    background:url('http://www.kentunion.co.uk/stylesheet/KentUnionResponsiveDesign/ku-logo-35px-blue.png') center center no-repeat;
+    height:7.2rem;
+    width: 16.5rem;
+    display:inline-block;
+    border:0;
+    text-indent: -999em;
+    overflow:hidden;
+    text-align:left;
+    direction:ltr;
+    line-height:0;
+}
+#mainLinks {
+    width:58%;
+    display: inline-block;
+}
+#mainMenu ul {
+    width:100%;
+    display:block;
+}
+#mainMenu ul li {
+    display:block;
+    width:16.6%;
+    height: 6rem;
+    float:left;
+    text-align:center;
+}
+#mainMenu ul li a {
+    width:100%;
+    height:7.6rem;
+    font-weight:bold;
+    padding-top:3rem;
+    color:#808285;
+    text-decoration: none;
+    border-left: 1px solid #D1D3D4;
+    display:block;
+}
+#mainMenu ul li:last-child a {
+    border-right: 1px solid #D1D3D4;   
+}
+#mainMenu ul li a:hover {
+    background-color: #00aeef;
+    color: #fff;
+    text-decoration:none;
+}
+#main {
+    width: 100rem;
+    display: block;
+    padding: 0;
+}
+#main-homepage-images {
+    height: 33rem;
+    display: block;
+    background-color: #efefef;
+}
+#main-homepage-social {
+    height: 33rem;
+    display: block;
+    background-color: #effeef;
+}
+#main-help {
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+}
+#main-help-box {
+    display:block;
+    width: 98%;
+}
+#main-help-box span {
+    padding: 1rem;
+}
+#main-help-box span h2 {
+    font-family: 'museo700';
+    margin: 0;
+}
+#main-help-box span p {
+    margin: 0;
+}
+#main-help-box span ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+#main-help-box span ul li a {
+    color: #fff;
+    padding: .5rem;
+    display: block;
+    font-weight: bold;
+}
+#main-help-box span ul li a:hover {
+    background-color: #fff;
+    color: #00aeef;
+}
+#promo-boxes {
+    margin-top: 2rem;
+    height: 15rem;
+    background-color: #787688;
+    width: 98%;
+}
+#main-news-box {
+    height: 30.2rem;
+    margin-top: 2rem;
+    background-color: #ddd;
+}
+#footer {
+    width: 100rem;
+    background-color: #ccc;
+    height: 3rem;
+    margin-top: 2rem;
+    padding: 0;
+    display: block;
+}
