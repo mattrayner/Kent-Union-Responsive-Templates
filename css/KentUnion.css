@@ -32,7 +32,6 @@ h2 {
     float:left;
 }
 .contrainProportion {
-    width:100rem;
     padding:0;
 }
 .modal {
@@ -179,7 +178,6 @@ html[xmlns] .clearfix {
     text-decoration:none;
 }
 #main {
-    width: 100rem;
     display: block;
     padding: 0;
 }
@@ -221,7 +219,7 @@ html[xmlns] .clearfix {
     height: auto;
 }
 #main-homepage-social {
-    height: 34.8rem;
+    height: 40.5rem;
     display: block;
     background-color: #effeef;
 }
@@ -272,7 +270,6 @@ html[xmlns] .clearfix {
     background-color: #eee;
 }
 #footer {
-    width:100rem;
     height: 3rem;
     margin-top: 1rem;
     padding: 0;
