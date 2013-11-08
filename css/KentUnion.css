@@ -56,8 +56,9 @@ h2 {
     font-weight: bold;
     cursor: pointer;
     position:absolute;
-    right:0;
+    right:1rem;
     top:2rem;
+    z-index:50;
 }
 .grid_left_column {
     width: 232px;
@@ -240,7 +241,7 @@ html[xmlns] .clearfix {
     background:url('http://www.kentunion.co.uk/stylesheet/KentUnionResponsiveDesign/ku-logo-35px-blue.png') center center no-repeat;
     height:7.2rem;
     width: 16.5rem;
-    display:inline-block;
+    float:left;
     border:0;
     text-indent: -999em;
     overflow:hidden;
@@ -250,7 +251,7 @@ html[xmlns] .clearfix {
 }
 #mainLinks {
     width:58%;
-    display: inline-block;
+    float:left;
 }
 #mainMenu ul {
     width:100%;
@@ -323,7 +324,6 @@ html[xmlns] .clearfix {
     height: auto;
 }
 #main-homepage-social {
-    height: 40.5rem;
     display: block;
     background-color: #effeef;
 }
@@ -433,3 +433,77 @@ html[xmlns] .clearfix {
     margin: 0;
 }
 
+
+@media (max-width:1140px) {
+
+.bottom {
+    width:80%;   
+}
+.modal {
+     padding: 0 20px 0 20px;
+}
+}
+
+@media (max-width:992px) {
+#main-help-box {
+    width:100%;     
+}
+#promo-boxes {
+    width:100%;
+}
+#mainLinks{
+    width:78%;
+}
+.bottom {
+    width:60%;   
+}
+#servicesL {
+    width:100%;
+}
+#servicesR {
+    margin:0;
+    padding:0;
+}
+#servicesBR {
+    width:100%;   
+}
+.services_links {
+    margin:0;
+    padding:0;
+}
+.grid_content_colum {
+    width:32%;   
+}
+#campuses {
+    width:100%;   
+}
+#campusL {
+    width:100%;   
+}
+#campusR {
+    margin:0;
+    padding:0;
+}
+#campusB {
+    margin:0;
+    padding:0;
+    width:100%;
+}
+#campusB img{
+    width: 22rem;
+    height: 14rem;
+}
+.modal {
+    height: 380px;   
+}
+}
+@media (max-width:780px) {
+.bottom {
+    width:50%;
+}    
+.modal {
+    height: 350px;
+
+}
+
+}
