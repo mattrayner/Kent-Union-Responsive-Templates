@@ -180,6 +180,12 @@ html[xmlns] .clearfix {
     list-style:none;
     padding-right:2rem;
 }
+#campuses li a {
+    text-decoration:none;
+}
+#campuses li a:hover {
+    text-decoration:none;
+}
 #campuses li a p {
     font-family:'museo700';
     font-size: 2rem;
@@ -192,6 +198,13 @@ html[xmlns] .clearfix {
     padding-left: 4px;
 }
 #campuses img { width:25rem; height:15rem;}
+
+#campuses li a:hover img {
+    border: 4px solid #00aeef;
+}
+#campuses li a:hover p {
+    color: #00aeef;
+}
 
 #greyBar {
     background-color: #808285;

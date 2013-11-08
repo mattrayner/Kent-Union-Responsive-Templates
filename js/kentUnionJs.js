@@ -75,9 +75,6 @@ $(document).ready(function() {
             $('#greyBar div').addClass('col-md-offset-3');
         }
 
-
-    
-    //$('#modal_OuterContainer').on('hover', '#campuses li a', hoverEffect);
     
     $(window).resize(function() {
         var windowWidth = $(window).outerWidth();
@@ -93,9 +90,3 @@ $(document).ready(function() {
         }
     });
 });
-
-function hoverEffect () {
-        $(this).children('img').css('border', '4px solid #00aeef');
-        $(this).children('p').css('color', '#00aeef');
-        $(this).css('text-decoration', 'none');
-}
