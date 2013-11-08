@@ -76,6 +76,7 @@ h2 {
 }
 .greyBar_active {
      background: url("http://www.kentunion.co.uk/stylesheet/KentUnionResponsiveDesign/arrow_down_white.png") no-repeat 100% 50% #00aeef !important;
+    cursor: default;
 }
 .museoTitle {
     color: #00aeef;

@@ -54,7 +54,7 @@ $(document).ready(function() {
     });
 
     
-    $('#overlay').click( function() {
+    $('#overlay, .close-reveal-modal').click( function() {
         $('.modal').slideUp('fast', function() {
             $('#overlay').fadeOut('fast');
             $('#greyBar li a').removeClass('greyBar_active');
@@ -62,13 +62,7 @@ $(document).ready(function() {
         });
     });
     
-    $('.close-reveal-modal').click(function() {
-        $('.modal').slideUp('fast', function() {
-            $('#overlay').fadeOut('fast');
-            $('#greyBar li a').removeClass('greyBar_active');
-            $('#modal_OuterContainer').html('');
-        });
-    });
+
     
     $('#main-homepage-social').css('height', $('#main-homepage-images').outerHeight());
     var windowWidth_start = $(window).outerWidth();
@@ -81,6 +75,9 @@ $(document).ready(function() {
             $('#greyBar div').addClass('col-md-offset-3');
         }
 
+
+    
+    //$('#modal_OuterContainer').on('hover', '#campuses li a', hoverEffect);
     
     $(window).resize(function() {
         var windowWidth = $(window).outerWidth();
@@ -96,3 +93,9 @@ $(document).ready(function() {
         }
     });
 });
+
+function hoverEffect () {
+        $(this).children('img').css('border', '4px solid #00aeef');
+        $(this).children('p').css('color', '#00aeef');
+        $(this).css('text-decoration', 'none');
+}
