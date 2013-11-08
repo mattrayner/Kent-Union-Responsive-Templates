@@ -192,7 +192,7 @@ html[xmlns] .clearfix {
     text-decoration: none;
     font-weight:100;
     padding: 0;
-    padding-top: 4px;
+    padding-top: 10px;
     margin: 0;
     color: #808285;
     padding-left: 4px;
@@ -200,7 +200,7 @@ html[xmlns] .clearfix {
 #campuses img { width:25rem; height:15rem;}
 
 #campuses li a:hover img {
-    border: 4px solid #00aeef;
+    outline: 4px solid #00aeef;
 }
 #campuses li a:hover p {
     color: #00aeef;
@@ -295,6 +295,10 @@ html[xmlns] .clearfix {
     background-color: #00aeef;
     color: #fff;
     text-decoration:none;
+}
+#weather {
+    width: 320px;
+    height: 65px;
 }
 #main {
     display: block;

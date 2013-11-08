@@ -89,4 +89,21 @@ $(document).ready(function() {
             $('#greyBar div').addClass('col-md-offset-3');
         }
     });
+    
+    $.simpleWeather({
+        zipcode: '',
+        woeid: '15051',
+        location: 'Canterbury',
+        unit: 'C',
+        success: function(weather) {
+        html = '<h2>'+weather.city+', '+weather.region+'</h2>';
+        html += '<img style="float:left;" width="125px" src="'+weather.image+'">';
+        html += '<p>'+weather.temp+'&deg; '+weather.units.temp+'<br /><span>'+weather.currently+'</span></p>';
+         
+        $("#weather").html(html);
+        },
+        error: function(error) {
+        $("#weather").html('<p>'+error+'</p>');
+        }
+    });
 });
